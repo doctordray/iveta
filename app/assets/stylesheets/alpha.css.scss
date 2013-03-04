@@ -1,0 +1,23 @@
+@import "bootstrap";
+
+@import url(http://fonts.googleapis.com/css?family=Walter+Turncoat|Handlee);
+@import "compass";
+
+$walter: 'Walter Turncoat', cursive;
+$rancho: 'Rancho', cursive;
+$handlee: 'Handlee', cursive;
+
+body {
+  font-family: $walter;
+}
+
+h1.page-title {
+  text-align: center;
+}
+
+.movies {
+  a {
+    font-size: 1.5em;
+    line-height: 1.8em;
+  }
+}
